@@ -43,7 +43,7 @@ pip install -r newreq.txt
 # 4. Launch app
 uvicorn main:app --reload
 
- API Documentation
- {
-  "message": "Blood Test Report Analyser API is running"
-}
+  API Documentation
+  {
+  GOOGLE_API_KEY=your-gemini-api-key
+  }
