@@ -10,7 +10,7 @@ from tools import BloodTestReportTool
 llm = ChatGoogleGenerativeAI(
     model="gemini-pro",
     temperature=0.7,
-    google_api_key=os.getenv("AIzaSyBntoZdz6RBqDZLzqPUPJXnmgkZ6WG_MqQ")
+    google_api_key=os.getenv("YOUR API KEY")
 )
 
 # Creating an Experienced Doctor agent (fixed tool list name from 'tool' to 'tools')
